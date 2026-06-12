@@ -1,0 +1,47 @@
+[
+  {
+    "step": 213,
+    "tool": "replace_file_content",
+    "target": "\"  .prose :where(tbody tr:last-child td):not(:where([class~=\\\"not-prose\\\"] *)) {\\n    @apply border-b-0;\\n  }\\n\\n}\""
+  },
+  {
+    "step": 252,
+    "tool": "replace_file_content",
+    "target": "\"  body {\\n    @apply bg-background text-foreground;\\n  }\""
+  },
+  {
+    "step": 291,
+    "tool": "replace_file_content",
+    "target": "\"  body {\\n    @apply bg-background text-foreground;\\n    background: linear-gradient(to bottom, #c9e2ff 0%, #eef6ff 50%, #f9fbff 100%) !important;\\n    background-attachment: fixed !important;\\n  }\\n\\n  body.dark,\\n  .dark body {\\n    background: linear-gradient(to bottom, #060b13 0%, #0d1527 60%, #172237 100%) !important;\\n    background-attachment: fixed !important;\\n  }\""
+  },
+  {
+    "step": 370,
+    "tool": "replace_file_content",
+    "target": "\".blend-custom-icon {\\n  filter: grayscale(100%) brightness(60%) contrast(300%);\\n  mix-blend-mode: multiply;\\n}\\n\\n.dark .blend-custom-icon {\\n  filter: grayscale(100%) invert(100%) brightness(130%) contrast(200%);\\n  mix-blend-mode: screen;\\n}\""
+  },
+  {
+    "step": 424,
+    "tool": "replace_file_content",
+    "target": "\"/* Island masking to blend with sky background */\\n.island-mask {\\n  mask-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.3) 15%, black 45%);\\n  -webkit-mask-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.3) 15%, black 45%);\\n}\""
+  },
+  {
+    "step": 469,
+    "tool": "replace_file_content",
+    "target": "\"/* Island masking to blend with sky background */\\n.island-mask {\\n  /* mask-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.3) 15%, black 45%); */\\n  /* -webkit-mask-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.3) 15%, black 45%); */\\n}\""
+  },
+  {
+    "step": 491,
+    "tool": "replace_file_content",
+    "target": "\":root {\\n  --radius: 0.625rem;\\n  --background: oklch(1 0 0);\\n  --foreground: oklch(0.145 0 0);\\n  --card: oklch(1 0 0);\\n  --card-foreground: oklch(0.145 0 0);\\n  --popover: oklch(1 0 0);\\n  --popover-foreground: oklch(0.145 0 0);\\n  --primary: oklch(0.205 0 0);\\n  --primary-foreground: oklch(0.985 0 0);\\n  --secondary: oklch(0.97 0 0);\\n  --secondary-foreground: oklch(0.205 0 0);\\n  --muted: oklch(0.97 0 0);\\n  --muted-foreground: oklch(0.556 0 0);\\n  --accent: oklch(0.97 0 0);\\n  --accent-foreground: oklch(0.205 0 0);\\n  --destructive: oklch(0.577 0.245 27.325);\\n  --border: oklch(0.922 0 0);\\n  --input: oklch(0.922 0 0);\\n  --ring: oklch(0.708 0 0);\""
+  },
+  {
+    "step": 503,
+    "tool": "replace_file_content",
+    "target": "\".animate-float-reverse {\\n  animation: float-reverse 45s ease-in-out infinite;\\n  will-change: transform;\\n}\""
+  },
+  {
+    "step": 518,
+    "tool": "replace_file_content",
+    "target": "\":root {\\n  --radius: 0.625rem;\\n  --background: oklch(1 0 0 / 12%); /* Frosted glass background for badges/inputs */\\n  --foreground: oklch(1 0 0); /* White/Cream primary text */\\n  --card: oklch(1 0 0 / 12%); /* Glassmorphism card backgrounds */\\n  --card-foreground: oklch(1 0 0); /* White/Cream card primary text */\\n  --popover: oklch(1 0 0 / 12%);\\n  --popover-foreground: oklch(1 0 0);\\n  --primary: oklch(1 0 0); /* Solid white for primary buttons/badges */\\n  --primary-foreground: oklch(0.22 0.05 245); /* Deep slate-blue for text on primary buttons/badges */\\n  --secondary: oklch(1 0 0 / 10%);\\n  --secondary-foreground: oklch(1 0 0);\\n  --muted: oklch(1 0 0 / 8%);\\n  --muted-foreground: oklch(0.92 0.015 240); /* Light grey-blue for secondary text */\\n  --accent: oklch(1 0 0 / 15%);\\n  --accent-foreground: oklch(1 0 0);\\n  --destructive: oklch(0.577 0.245 27.325);\\n  --border: oklch(1 0 0 / 22%); /* Semi-transparent white borders */\\n  --input: oklch(1 0 0 / 22%);\\n  --ring: oklch(1 0 0 / 30%);\""
+  }
+]
